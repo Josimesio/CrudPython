@@ -1,0 +1,8 @@
+body { background: #f4f6f9; font-family: 'Segoe UI', sans-serif; }
+.navbar { background: linear-gradient(90deg,#007bff,#6610f2); box-shadow: 0 4px 6px rgba(0,0,0,.2); }
+.card { border-radius: 12px; box-shadow: 0 0.5rem 1rem rgba(0,0,0,.15); margin-bottom: 2rem; }
+.table-hover tbody tr:hover { background-color: #d1e7ff; transform: scale(1.01); transition: 0.2s; }
+.btn-space { margin-right: 5px; }
+.alert-fixed { position: fixed; top: 20px; right: 20px; z-index: 1050; border-radius: 8px; }
+footer { text-align:center; padding: 10px 0; color: #6c757d; }
+@media (max-width: 767px) { .table-responsive { overflow-x: auto; } }
